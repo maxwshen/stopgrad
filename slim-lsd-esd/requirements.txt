@@ -1,0 +1,8 @@
+torch
+torchvision
+torchmetrics
+torch-fidelity
+numpy
+wandb
+Pillow
+tensorboard

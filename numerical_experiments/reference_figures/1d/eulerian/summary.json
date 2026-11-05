@@ -1,0 +1,116 @@
+{
+  "spatial_dim": 1,
+  "mode": "eulerian",
+  "device": "cuda",
+  "dtype": "float64",
+  "num_f0_values": 1,
+  "num_tau_increments": 102,
+  "num_tau_checkpoints": 22,
+  "num_t_values": 61,
+  "num_x_values_per_dim": 121,
+  "num_spatial_points": 121,
+  "plot_kind": "both",
+  "tau_final_requested": 0.2,
+  "tau_final_simulated": 0.1999999999999995,
+  "dtau": 0.00196078431372549,
+  "pointwise_tau_final_requested": 5.0,
+  "pointwise_dtau": 0.00196078431372549,
+  "pointwise_num_curves": 7,
+  "eps": 0.15,
+  "final_l2_error": 3.2243323263492947e-06,
+  "final_linf_error": 1.5481505092562742e-05,
+  "solution_scatter_pearsonr": 0.9999999999988848,
+  "pointwise_curves": [
+    {
+      "curve_index": 0,
+      "f0_index": 0,
+      "t_value": 0.0,
+      "u_value": 0.016666666666666666,
+      "x_value": [
+        -1.3333333333333333
+      ],
+      "num_tau_values": 2551,
+      "final_numerical_error": 3.187535203785785e-06,
+      "final_predicted_error": 3.1607528732102708e-06,
+      "max_abs_curve_gap": 2.1342870382135004e-07
+    },
+    {
+      "curve_index": 1,
+      "f0_index": 0,
+      "t_value": 0.08333333333333333,
+      "u_value": 0.35,
+      "x_value": [
+        -1.0
+      ],
+      "num_tau_values": 2551,
+      "final_numerical_error": 8.031216582793377e-05,
+      "final_predicted_error": 8.03733800354145e-05,
+      "max_abs_curve_gap": 1.4811349771104432e-06
+    },
+    {
+      "curve_index": 2,
+      "f0_index": 0,
+      "t_value": 0.18333333333333332,
+      "u_value": 0.2833333333333333,
+      "x_value": [
+        2.7755575615628914e-17
+      ],
+      "num_tau_values": 2551,
+      "final_numerical_error": 7.0871037782336416e-06,
+      "final_predicted_error": 7.043667077679533e-06,
+      "max_abs_curve_gap": 3.11569510861448e-07
+    },
+    {
+      "curve_index": 3,
+      "f0_index": 0,
+      "t_value": 0.2833333333333333,
+      "u_value": 0.8,
+      "x_value": [
+        1.0
+      ],
+      "num_tau_values": 2551,
+      "final_numerical_error": 5.585929824558633e-05,
+      "final_predicted_error": 5.541880155846002e-05,
+      "max_abs_curve_gap": 1.0727037113911209e-05
+    },
+    {
+      "curve_index": 4,
+      "f0_index": 0,
+      "t_value": 0.4166666666666667,
+      "u_value": 0.75,
+      "x_value": [
+        1.3333333333333333
+      ],
+      "num_tau_values": 2551,
+      "final_numerical_error": 6.074736535044423e-05,
+      "final_predicted_error": 6.0408200866612916e-05,
+      "max_abs_curve_gap": 5.69932419303143e-06
+    },
+    {
+      "curve_index": 5,
+      "f0_index": 0,
+      "t_value": 0.5833333333333334,
+      "u_value": 0.9166666666666666,
+      "x_value": [
+        -1.3333333333333333
+      ],
+      "num_tau_values": 2551,
+      "final_numerical_error": 8.844759192583318e-05,
+      "final_predicted_error": 8.845686204383973e-05,
+      "max_abs_curve_gap": 4.818732304512352e-06
+    },
+    {
+      "curve_index": 6,
+      "f0_index": 0,
+      "t_value": 0.9833333333333333,
+      "u_value": 1.0,
+      "x_value": [
+        -1.0
+      ],
+      "num_tau_values": 2551,
+      "final_numerical_error": 4.356640429081793e-06,
+      "final_predicted_error": 4.5069833509714385e-06,
+      "max_abs_curve_gap": 1.8573052096293452e-07
+    }
+  ]
+}

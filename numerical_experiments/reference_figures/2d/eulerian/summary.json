@@ -1,0 +1,123 @@
+{
+  "spatial_dim": 2,
+  "mode": "eulerian",
+  "device": "cuda",
+  "dtype": "float64",
+  "num_f0_values": 1,
+  "num_tau_increments": 56,
+  "num_tau_checkpoints": 29,
+  "num_t_values": 31,
+  "num_x_values_per_dim": 31,
+  "num_spatial_points": 961,
+  "plot_kind": "both",
+  "tau_final_requested": 0.2,
+  "tau_final_simulated": 0.20051752181092966,
+  "dtau": 0.0035806700323380326,
+  "pointwise_tau_final_requested": 5.0,
+  "pointwise_dtau": 0.0035806700323380326,
+  "pointwise_num_curves": 7,
+  "eps": 0.15,
+  "final_l2_error": 7.084425577357531e-05,
+  "final_linf_error": 0.00041154512753402336,
+  "solution_scatter_pearsonr": 0.999999998700197,
+  "pointwise_curves": [
+    {
+      "curve_index": 0,
+      "f0_index": 0,
+      "t_value": 0.0,
+      "u_value": 0.03333333333333333,
+      "x_value": [
+        -1.3333333333333333,
+        -1.0666666666666667
+      ],
+      "num_tau_values": 1397,
+      "final_numerical_error": 6.633473493943865e-06,
+      "final_predicted_error": 7.436201944590875e-06,
+      "max_abs_curve_gap": 5.635816256704842e-06
+    },
+    {
+      "curve_index": 1,
+      "f0_index": 0,
+      "t_value": 0.06666666666666667,
+      "u_value": 0.7,
+      "x_value": [
+        -1.0666666666666667,
+        2.7755575615628914e-17
+      ],
+      "num_tau_values": 1397,
+      "final_numerical_error": 0.00020943776415767679,
+      "final_predicted_error": 0.00020433213875681815,
+      "max_abs_curve_gap": 0.00016364958331453738
+    },
+    {
+      "curve_index": 2,
+      "f0_index": 0,
+      "t_value": 0.16666666666666666,
+      "u_value": 0.7,
+      "x_value": [
+        2.7755575615628914e-17,
+        1.0666666666666667
+      ],
+      "num_tau_values": 1397,
+      "final_numerical_error": 6.485187398497756e-05,
+      "final_predicted_error": 6.460588012382824e-05,
+      "max_abs_curve_gap": 4.180976531841657e-05
+    },
+    {
+      "curve_index": 3,
+      "f0_index": 0,
+      "t_value": 0.26666666666666666,
+      "u_value": 0.9666666666666667,
+      "x_value": [
+        1.0666666666666667,
+        1.3333333333333333
+      ],
+      "num_tau_values": 1397,
+      "final_numerical_error": 0.00012935630392684497,
+      "final_predicted_error": 0.00012960057598559888,
+      "max_abs_curve_gap": 0.00018916930759092787
+    },
+    {
+      "curve_index": 4,
+      "f0_index": 0,
+      "t_value": 0.4,
+      "u_value": 0.9333333333333333,
+      "x_value": [
+        1.3333333333333333,
+        -1.3333333333333333
+      ],
+      "num_tau_values": 1397,
+      "final_numerical_error": 0.00012552233466322143,
+      "final_predicted_error": 0.00012316778555793213,
+      "max_abs_curve_gap": 6.360833583873154e-05
+    },
+    {
+      "curve_index": 5,
+      "f0_index": 0,
+      "t_value": 0.6,
+      "u_value": 0.6333333333333333,
+      "x_value": [
+        -1.3333333333333333,
+        -1.0666666666666667
+      ],
+      "num_tau_values": 1397,
+      "final_numerical_error": 5.652040265015401e-06,
+      "final_predicted_error": 6.1933253854516224e-06,
+      "max_abs_curve_gap": 2.5408888397864806e-06
+    },
+    {
+      "curve_index": 6,
+      "f0_index": 0,
+      "t_value": 0.9666666666666667,
+      "u_value": 1.0,
+      "x_value": [
+        -1.0666666666666667,
+        2.7755575615628914e-17
+      ],
+      "num_tau_values": 1397,
+      "final_numerical_error": 1.8964167591479208e-05,
+      "final_predicted_error": 1.4640690836012325e-05,
+      "max_abs_curve_gap": 6.617399028468899e-06
+    }
+  ]
+}
